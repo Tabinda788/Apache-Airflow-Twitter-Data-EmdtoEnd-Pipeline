@@ -7,7 +7,7 @@ import s3fs
 import os
 
 def run_twitter_etl():
-        client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAB5SiAEAAAAAmdXX6Z8Ij6zu4Spk5N6d22KtRHA%3DZCz9QIjGupteEoacAoks7QLrAUekzBrMQJD1bmtNqKz1cRt21R')
+        client = tweepy.Client(bearer_token='your-barear-token')
 
         # Replace with your own search query
         query = 'from:elonmusk'
